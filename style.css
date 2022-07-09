@@ -1,0 +1,362 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500&family=Pacifico&family=Roboto:wght@400;500;700;900&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-snap-type: mandatory;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.nav-link{
+    margin-left: 30px;
+    margin: 15px;
+    font-size: 20px;
+}
+.navbar-brand{
+    font-family: 'Pacifico', cursive;
+    letter-spacing: 3px;
+}
+.banner{
+    height: 90vh;
+    width: auto;
+    background-image: url(pexels-vecislavas-popa-1571460.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.logo-name{
+    height: 80px;
+    width: 500px;
+    background-color: rgba(197, 202, 204, 0.7);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    border: none;
+    letter-spacing: 4px;
+}
+.logo-name h4{
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    padding-top: 8px;
+}
+.logo-details{
+    height: 80px;
+    width: 450px;
+    background-color: rgba(236, 16, 101, .9);
+    position: absolute;
+    top: 66%;
+    left: 0;
+    text-align: center;
+    border: none;
+}
+.about{
+    background-color: rgba(173, 88, 88, 0.514);
+}
+.about h1{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 10px;
+}
+.about h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+}
+.about p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 7px;
+}
+.about img{
+    box-shadow: 14px 17px 3px rgb(128, 0, 60);
+}
+.fa-twitter{
+    font-size: 30px;
+    margin-left: 20px;
+    border: 2px solid rgba(44, 44, 163, 0.479);
+    padding: 10px 15px;
+    background-color: rgba(164, 164, 226, 0.479) ;
+    border-radius: 3px;
+}
+.fa-facebook-f{
+    font-size: 30px;
+    margin-left: 20px;
+    border: 2px solid rgba(44, 44, 163, 0.479);
+    padding: 10px 20px;
+    background-color: rgba(164, 164, 226, 0.479) ;
+    border-radius: 3px;
+}
+.box{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: auto;
+    position: relative;
+    max-width: 13rem;
+    height: 15rem;
+    border-left: 2px solid rgba(24, 23, 23, 0.842);
+    border-right: 4.5px solid rgba(24, 23, 23, 0.842) ;
+    border-top: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.63);
+    border-radius: 15px;
+    margin-top: 40px;
+    box-shadow: 3px 4px 4px black;
+    
+}
+.box p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(245, 222, 179, 0.363);
+    font-family:'Roboto', sans-serif;
+    font-weight: 700;
+}
+.services{
+    background-blend-mode: color;
+    background-color: rgba(19, 16, 16, 0.816);
+    background-image: url(pexels-mikhail-nilov-6707631.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-position: center;   
+}
+.services h1{
+    letter-spacing: 7px;
+}
+.project-img{
+    height: 93%;
+    width: 90%;
+}
+.project-img img{
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border: 5px solid rgba(194, 184, 184, 0.432);
+    margin-bottom: 27px;
+    transition: .55s all ease;
+    cursor: pointer;
+}
+.project h1{
+    letter-spacing: 7px;
+}
+.project-img img:hover{
+    transform: scale(1.1);
+    border: 3px solid rgba(194, 184, 184, 0.432);
+}
+.project{
+    background-blend-mode: color;
+    background-color: rgba(76, 20, 123, 0.78);
+    background-image: url(pexels-mikhail-nilov-6707631.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-position: center;
+}
+.contact-box-container {
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact-box-container .contact-box {
+    height: 15rem;
+    flex: 1 0 20rem;
+    margin: 2rem;
+    box-shadow: 0 0.3rem 0.5rem rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.contact-box i{
+    font-size: 30px;
+    color: rgba(102, 17, 102, 0.76);
+}
+.contact-box h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+}
+.footer{
+    height: 100%;
+    width: auto;
+}
+.footer-logo{
+    font-family: 'Pacifico', cursive;
+    font-size: 23px;
+    padding-top: 20px;
+    letter-spacing: 7px;
+}
+.footer p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding-top: 15px;
+}
+.footer h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    padding-top: 20px;
+}
+.footer .fa-facebook-f{
+    font-size: 20px;
+    margin-left: 20px;
+    border: 2px solid rgba(44, 44, 163, 0.479);
+    padding: 7px 15px;
+    background-color: rgba(164, 164, 226, 0.479) ;
+    border-radius: 3px;
+    margin-top: 9px;
+}
+.footer .fa-twitter{
+    font-size: 20px;
+    margin-left: 20px;
+    border: 2px solid rgba(44, 44, 163, 0.479);
+    padding: 7px 10px;
+    background-color: rgba(164, 164, 226, 0.479) ;
+    border-radius: 3px;
+    align-items: center;
+    margin-top: 9px;
+}
+.follow{
+    text-align: center;
+}
+.copy-footer {
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.808);
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 10px 0;
+    margin-bottom: 0;
+    border-top: 0.2px solid rgba(170, 170, 170, 0.87);
+    letter-spacing: 8px;
+}
+.copy-footer span{
+    font-size: 26px;
+    font-family:'Josefin Sans', sans-serif ;
+    font-weight: 500;
+    color: rgb(212, 8, 127);
+}
+
+
+
+
+
+@media screen and (max-width: 630px) {
+    .logo-name{
+        height: 50px;
+        width: 300px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        background-color: rgba(197, 202, 204, 0.7);
+        position: absolute;
+        top: 50%;
+        left: 0;
+        text-align: center;
+        border: none;
+    }
+    .logo-name h4{
+        font-family: 'Pacifico', cursive;
+        font-size: 15px;
+    }
+    .logo-details{
+        height: 50px;
+        width: 260px;
+        background-color: rgba(236, 16, 101, .9);
+        position: absolute;
+        top: 60%;
+        left: 0;
+        text-align: center;
+        border: none;
+    }
+    .fa-twitter{
+        font-size: 25px;
+        margin-left: 20px;
+        border: 2px solid rgba(44, 44, 163, 0.479);
+        padding: 5px 7.5px;
+        background-color: rgba(164, 164, 226, 0.479) ;
+        border-radius: 3px;
+    }
+    .fa-facebook-f{
+        font-size: 25px;
+        margin-left: 20px;
+        border: 2px solid rgba(44, 44, 163, 0.479);
+        padding: 5px 12px;
+        background-color: rgba(164, 164, 226, 0.479) ;
+        border-radius: 3px;
+    }
+    .nav-link{
+        margin-left: 20px;
+        margin: 7px;
+        font-size: 20px;
+    }
+    .about p{
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 6px;
+    }
+    
+    .project-img img{
+        border-radius: 10px;
+        margin-bottom: 15px;
+        border: 5px solid rgba(194, 184, 184, 0.432);
+        margin-bottom: 27px;
+        transition: .55s all ease;
+        margin-left: 22px;
+        cursor: pointer;
+
+    }
+    .project-img img:hover{
+        transform: scale(1.08);
+        border: 3px solid rgba(194, 184, 184, 0.432);
+    }
+    .footer-logo{
+        font-family: 'Pacifico', cursive;
+        font-size: 18px;
+        padding-top: 13px;
+        letter-spacing: 7px;
+    }
+    .footer p{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 18px;
+        padding-top: 3px;
+    }
+    .footer h3{
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        font-size: 25px;
+        padding-top: 20px;
+    }
+    .footer .fa-facebook-f{
+        font-size: 20px;
+        margin-left: 20px;
+        border: 2px solid rgba(44, 44, 163, 0.479);
+        padding: 7px 15px;
+        background-color: rgba(164, 164, 226, 0.479) ;
+        border-radius: 3px;
+        margin-top: 9px;
+    }
+    .footer .fa-twitter{
+        font-size: 20px;
+        margin-left: 20px;
+        border: 2px solid rgba(44, 44, 163, 0.479);
+        padding: 7px 10px;
+        background-color: rgba(164, 164, 226, 0.479) ;
+        border-radius: 3px;
+        align-items: center;
+        margin-top: 9px;
+    }
+    .copy-footer span{
+        font-size: 22px;
+        font-family:'Josefin Sans', sans-serif ;
+        font-weight: 500;
+        color: rgb(212, 8, 127);
+    }
+}
+
